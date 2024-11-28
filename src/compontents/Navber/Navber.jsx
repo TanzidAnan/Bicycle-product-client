@@ -4,6 +4,7 @@ const Navber = () => {
 
     const links =<>
      <li><Link to='/'>Item 1</Link></li>
+     <li><Link to='/product'>product</Link></li>
     </>
 
     return (
