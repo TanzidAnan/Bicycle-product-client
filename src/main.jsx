@@ -7,8 +7,8 @@ import {
   RouterProvider,
 } from "react-router-dom";
 import Roots from './compontents/Roots/Roots';
-import Header from './compontents/Header/Header';
 import Product from './compontents/Product/Product';
+import Home from './compontents/Home/Home';
 
 const router = createBrowserRouter([
   {
@@ -17,7 +17,8 @@ const router = createBrowserRouter([
     children:[
       {
         path:'/',
-        element:<Header></Header>
+        element:<Home></Home>,
+        loader:() => ('http://localhost:5000/items')
       },
       {
         path:'/product',
