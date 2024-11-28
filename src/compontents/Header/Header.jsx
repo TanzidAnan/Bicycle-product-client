@@ -151,7 +151,7 @@ const Header = () => {
                         </div>
                         <div className="">
                             <div className="">
-                                <img className="w-full" src="https://i.ibb.co.com/NpYQCQS/Pearly-White-1000x1000-WB-removebg-preview-1920x816-1.png" alt="" />
+                                <img className="w-full" src="https://i.ibb.co.com/8Pj9Pcz/cannondale-trail-6-383504-1-removebg-preview-308x230.png" alt="" />
                             </div>
                         </div>
                     </div>
