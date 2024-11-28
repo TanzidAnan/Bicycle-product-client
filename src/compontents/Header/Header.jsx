@@ -1,6 +1,7 @@
 import { useKeenSlider } from "keen-slider/react"
 import "keen-slider/keen-slider.min.css"
 import "./Header.css"
+import { FaBicycle } from "react-icons/fa6";
 
 const WheelControls = (slider) => {
     let touchTimeout
@@ -73,8 +74,10 @@ const Header = () => {
             <div ref={sliderRef} className="keen-slider rounded-md" style={{ height: 600 }}>
                 <div className="keen-slider__slide number-slide1">
                     <div className="flex justify-between items-center">
-                        <div className="w-[50%]">
-                            5
+                        <div className="w-[50%] pl-8">
+                           <h4 className="text-lg font-bold">Motor</h4>
+                           <h1 className="text-4xl font-extrabold">wsr-690 suplices</h1>
+                            <button className="flex justify-center gap-3 items-center mt-3 py-3 btn bg-yellow-300">Add Card <FaBicycle /></button>
                         </div>
                         <div className="">
                             <div className="">
@@ -83,11 +86,76 @@ const Header = () => {
                         </div>
                     </div>
                 </div>
-                <div className="keen-slider__slide number-slide2">2</div>
-                <div className="keen-slider__slide number-slide3">3</div>
-                <div className="keen-slider__slide number-slide4">4</div>
-                <div className="keen-slider__slide number-slide5">5</div>
-                <div className="keen-slider__slide number-slide6">6</div>
+                <div className="keen-slider__slide number-slide2">
+                    <div className="flex justify-between items-center">
+                        <div className="w-[50%] pl-8">
+                           <h4 className="text-lg font-bold">Motor</h4>
+                           <h1 className="text-4xl font-extrabold">wsr-690 suplices</h1>
+                            <button className="flex justify-center gap-3 items-center mt-3 py-3 btn bg-yellow-300">Add Card <FaBicycle /></button>
+                        </div>
+                        <div className="">
+                            <div className="">
+                                <img className="w-full" src="https://i.ibb.co.com/NpYQCQS/Pearly-White-1000x1000-WB-removebg-preview-1920x816-1.png" alt="" />
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div className="keen-slider__slide number-slide3">
+                    <div className="flex justify-between items-center">
+                        <div className="w-[50%] pl-8">
+                           <h4 className="text-lg font-bold">Motor</h4>
+                           <h1 className="text-4xl font-extrabold">wsr-690 suplices</h1>
+                            <button className="flex justify-center gap-3 items-center mt-3 py-3 btn bg-yellow-300">Add Card <FaBicycle /></button>
+                        </div>
+                        <div className="">
+                            <div className="">
+                                <img className="w-full" src="https://i.ibb.co.com/NpYQCQS/Pearly-White-1000x1000-WB-removebg-preview-1920x816-1.png" alt="" />
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div className="keen-slider__slide number-slide4">
+                    <div className="flex justify-between items-center">
+                        <div className="w-[50%] pl-8">
+                           <h4 className="text-lg font-bold">Motor</h4>
+                           <h1 className="text-4xl font-extrabold">wsr-690 suplices</h1>
+                            <button className="flex justify-center gap-3 items-center mt-3 py-3 btn bg-yellow-300">Add Card <FaBicycle /></button>
+                        </div>
+                        <div className="">
+                            <div className="">
+                                <img className="w-full" src="https://i.ibb.co.com/NpYQCQS/Pearly-White-1000x1000-WB-removebg-preview-1920x816-1.png" alt="" />
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div className="keen-slider__slide number-slide5">
+                    <div className="flex justify-between items-center">
+                        <div className="w-[50%] pl-8">
+                           <h4 className="text-lg font-bold">Motor</h4>
+                           <h1 className="text-4xl font-extrabold">wsr-690 suplices</h1>
+                            <button className="flex justify-center gap-3 items-center mt-3 py-3 btn bg-yellow-300">Add Card <FaBicycle /></button>
+                        </div>
+                        <div className="">
+                            <div className="">
+                                <img className="w-full" src="https://i.ibb.co.com/NpYQCQS/Pearly-White-1000x1000-WB-removebg-preview-1920x816-1.png" alt="" />
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div className="keen-slider__slide number-slide6">
+                    <div className="flex justify-between items-center">
+                        <div className="w-[50%] pl-8">
+                           <h4 className="text-lg font-bold">Motor</h4>
+                           <h1 className="text-4xl font-extrabold">wsr-690 suplices</h1>
+                            <button className="flex justify-center gap-3 items-center mt-3 py-3 btn bg-yellow-300">Add Card <FaBicycle /></button>
+                        </div>
+                        <div className="">
+                            <div className="">
+                                <img className="w-full" src="https://i.ibb.co.com/NpYQCQS/Pearly-White-1000x1000-WB-removebg-preview-1920x816-1.png" alt="" />
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
     );
